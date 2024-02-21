@@ -1,0 +1,124 @@
+body {
+    font-family: 'Mortal Kombat 4', Arial, sans-serif;
+    background-color: #e1dede;
+    color: #163075;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 50px;
+    margin-top: -80px;
+}
+
+nav ul {
+    list-style: none;
+    size: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    transition: border-color 0.3s;
+}
+
+nav a:hover {
+    border-color: #711313; 
+    background-color: #711313;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    margin-left: -40px;
+    margin-top: -20px;
+ 
+}
+
+.hero video {
+    width: 1425px;
+    height: auto;
+    object-fit: cover;
+    margin-right: -40px;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: auto;
+    color: #ffffff;
+}
+
+.hero h2 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.hero a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(204, 40, 40, 0.322);
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.perehod{
+    margin-top: -100px;
+}
+
+.featured-characters {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px; 
+  }
+p {
+    margin-left: 70px;
+    margin-right: 70px;
+    }
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#registrationForm {
+    display: none;
+}
+
+
+.content {
+    display: flex;
+}
+.text {
+    margin-left: -100px;
+}
